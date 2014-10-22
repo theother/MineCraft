@@ -37,4 +37,14 @@ __Essensial__
 + [List of all items](http://minecraft-ids.grahamedgecombe.com/)   
 
 
+Multi-Vers
+----------
+__Create__
++ /mvcreate `name_of_world` `type_of_world`
+  * /mvcreate `name_of_world` `type_of_world` -g TerrainControl  (to use terrain control)
 
+__Remove__
++ /mvremove `world_name`
+
+__List World__
++ /mvlist
