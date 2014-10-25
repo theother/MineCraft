@@ -47,4 +47,6 @@ __Remove__
 + /mvremove `world_name`
 
 __List World__
-+ /mvlist
++ /mw create <world name> [generator] [seed]
+  *  
++ /mw load
