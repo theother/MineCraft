@@ -50,4 +50,6 @@ __List World__
 + /mw create <world name> [generator] [seed]
   *  
 + /mw load
-http://www.minecraftworldmap.com/
++ http://www.minecraftworldmap.com/
++ LtJim007
++ 
