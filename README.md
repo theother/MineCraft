@@ -57,6 +57,7 @@ __List World__
 
 Import Schematic's
 ------------------
+
 1. Place said schematic file in the root file of worldEdit
 2. SSH to file file location and `sudo cp [filename] [/schematics]`
 3. This will then allow you to use worldEdit to import the file into said worlds
@@ -64,11 +65,13 @@ Import Schematic's
 WorldEdit
 ---------
 __Selction Tool__
+
 1. Use wand via the `//wand` command
 2. Select point one with your crosshair using the `//pos1` command
 3. Select point to using `//pos2`
 
 __Copying to Schematics__
+
 1. Make your selection (reffer to selection tool) and copy it with `\\copy`
 2. Save it with `\\schem save mcedit filename`
 
