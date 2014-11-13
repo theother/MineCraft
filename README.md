@@ -75,3 +75,5 @@ __Copying to Schematics__
 1. Make your selection (reffer to selection tool) and copy it with `\\copy`
 2. Save it with `\\schem save mcedit filename`
 
+Plugin Segestions
+https://clients.mcprohosting.com/knowledgebase/22/Recommended-Minecraft-Plugins.html
