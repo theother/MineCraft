@@ -61,3 +61,27 @@ Allows a regular user to claim a plot of land and be set as its areas owner.
     * Will only list the regions in the particular world you are currently in
     * `region info` - will show you all the infromation about a region
 + `region delete <name>` - will delete a certian region
+
+
+Tutorial
+--------
+#### Allowing only "Jon" and "Tetsu" to work on a pagoda
+The name of this region will be pagoda.
+
+1. Select the region with WorldEdit.
+2. Type in `/region define pagoda Jon Tetsu`
+3. You're done!
+Now Zhyk wants to join in? Don't want him as a region owner? Use `/region addmember pagoda Zhyk`
+
+#### Allowing players to build inside plots inside a protected city
+1. Select the city's region with WorldEdit.
+2. Create a region for it with `/region define city`
+3. For Alex, who is a resident of the city, select the region for his plot.
+4. Create a region for it with `/region define alexplot alex`
+5. Make Alex's region higher priority than the city's region in order for access to work out properly by using `/region setpriority alexplot 10` If you do not do this, Alex would need build access in both his plot and the city plot.
+6. You're done!
+
+#### Allowing specific groups as owners of an area
+1. Select the city's region with WorldEdit.
+2. Create a region for it with `/region define area g:Admins g:Moderators`
+3. You're done!
