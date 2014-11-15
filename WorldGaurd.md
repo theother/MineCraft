@@ -52,7 +52,9 @@ __Flag List__
     * pvp
     * tnt
     
-
+####Claiming Regions
++ `/region claim <id>`
+Allows a regular user to claim a plot of land and be set as its areas owner.
 
 ###### Command List
 + `region list` - will list all the regions
